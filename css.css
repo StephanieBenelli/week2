@@ -1,0 +1,95 @@
+body {
+    background-color:black;
+}
+
+section{
+    display:flex;
+    flex-direction:column;
+    margin-left:230px;
+    
+}
+
+.chatbox {
+    width: 700px;
+    height:7rem;
+    margin-top: 80px;
+    margin-left:30px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-style:solid;
+    border-radius:20px;
+    border-color:rgb(3, 115, 167);
+    background-color:rgb(3, 115, 167);
+    color:white;
+    position:relative;
+}
+
+img {
+    width: 110px;
+    height: auto;
+    border-radius: 50%;
+    position: absolute;
+    right: -200px;
+    top: 0;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(226, 21, 245);
+}
+
+#camille{
+    margin-left:300px;
+}
+
+#camillePic{
+    margin-right: 1010px;
+    border-color:chartreuse;
+    position:absolute;
+}
+.arrow{
+    width: 0; 
+    height: 0; 
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid  rgb(3, 115, 167);
+  }
+
+.em em-heavy_check_mark{
+    width:5px;
+    height:auto;
+    position:relative;
+  }
+
+#benArrow1{
+    position: relative;
+    top: -80px;
+    left: 700px;
+
+  }
+
+#camilleArrow {
+    position: relative;
+    top: -100px;
+    right: 30px;
+    border-right: 20px solid rgb(3, 115, 167);
+    border-left: 0;
+
+}
+
+#benArrow2{
+    position: relative;
+    top: -100px;
+    left: 700px;
+
+  }
+
+.read{
+    bottom: -30px;
+    left: 30px;
+    position: absolute;
+    opacity:0
+}
+
+.chatbox:hover > .read {
+    opacity:1;
+    transition-delay:0.1s;
+}
